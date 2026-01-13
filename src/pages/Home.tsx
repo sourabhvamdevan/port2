@@ -1,0 +1,137 @@
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
+const roles = [
+  "aspiring software engineer.",
+  "full-stack developer.",
+  "AI & ML enthusiast.",
+];
+
+export default function Home() {
+  const [text, setText] = useState("");
+  const [roleIndex, setRoleIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [deleting, setDeleting] = useState(false);
+
+  useEffect(() => {
+    const current = roles[roleIndex];
+    const speed = deleting ? 40 : 80;
+
+    const timer = setTimeout(() => {
+      if (!deleting && charIndex < current.length) {
+        setText(current.slice(0, charIndex + 1));
+        setCharIndex(charIndex + 1);
+      } else if (deleting && charIndex > 0) {
+        setText(current.slice(0, charIndex - 1));
+        setCharIndex(charIndex - 1);
+      } else if (!deleting && charIndex === current.length) {
+        setTimeout(() => setDeleting(true), 1000);
+      } else if (deleting && charIndex === 0) {
+        setDeleting(false);
+        setRoleIndex((roleIndex + 1) % roles.length);
+      }
+    }, speed);
+
+    return () => clearTimeout(timer);
+  }, [charIndex, deleting, roleIndex]);
+
+  return (
+    <section className="max-w-5xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
+      {/* Left content */}
+      <div className="flex-1">
+        {/* TYPEWRITER HEADING */}
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-100">
+          Hi, I’m Sourabh Vamdevan.
+          <br />
+          <span className="text-blue-600 dark:text-emerald-400">
+            {text}
+            <span className="animate-pulse">|</span>
+          </span>
+        </h2>
+
+        <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-xl">
+          Hey there! I'm Sourabh Vamdevan, a Computer Science student passionate
+          about Full-Stack Web Development, Generative AI, and automation. I love
+          transforming ideas into impactful, intelligent, and beautifully
+          designed digital experiences.
+          <br />
+          <br />
+          I'm Azure and Oracle certified, with hands-on experience across 9+
+          projects—ranging from Machine Learning and Generative AI to Full-Stack
+          and 3D web apps using Three.js. My work blends creativity with
+          performance, solving real-world problems through smart engineering.
+          <br />
+          <br />
+          Currently, I’m exploring Generative AI—working with LLMs, RAG, and
+          agentic AI systems to build intelligent, context-aware applications.
+        </p>
+
+        <div className="mt-8 flex gap-4">
+          <Link
+            to="/projects"
+            className="
+              px-5 py-3 rounded-md
+              bg-gradient-to-r from-blue-500 to-emerald-500
+              hover:from-blue-600 hover:to-emerald-600
+              text-white font-medium
+              shadow-sm hover:shadow-md
+              transition-all
+            "
+          >
+            View Projects
+          </Link>
+
+          <Link
+            to="/contact"
+            className="
+              px-5 py-3 rounded-md
+              border border-gray-300 dark:border-white/10
+              text-gray-800 dark:text-gray-200
+              hover:bg-gray-100 dark:hover:bg-white/10
+              transition
+            "
+          >
+            Contact
+          </Link>
+        </div>
+      </div>
+
+      {/* Right card */}
+      <div
+        className="
+          w-full max-w-sm p-6 rounded-2xl
+          bg-white dark:bg-gray-900
+          border border-gray-200 dark:border-white/10
+          shadow-sm
+        "
+      >
+        <h4 className="text-sm text-gray-700 dark:text-gray-300">
+          Quick stats
+        </h4>
+
+        <div className="mt-4 grid grid-cols-2 gap-4">
+          <div className="p-3 rounded-lg bg-gray-100 dark:bg-white/5 text-center">
+            <div className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+              3+
+            </div>
+            <div className="text-xs mt-1 text-gray-600 dark:text-gray-400">
+              Production projects
+            </div>
+          </div>
+
+          <div className="p-3 rounded-lg bg-gray-100 dark:bg-white/5 text-center">
+            <div className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+              5+
+            </div>
+            <div className="text-xs mt-1 text-gray-600 dark:text-gray-400">
+              Research & prototypes
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+
