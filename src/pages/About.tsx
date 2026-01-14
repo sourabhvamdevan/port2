@@ -7,7 +7,9 @@ const skills = [
   { name: "DSA", level: 65 },
   { name: "TypeScript", level: 52 },
   { name: "SQL", level: 70 },
-  {name: "Flutter", level:60},
+  {name: "Flutter", level:65},
+  {name: "Full Stack Development", level:70},
+  {name: "React Native", level:60},
 ];
 
 export default function About() {

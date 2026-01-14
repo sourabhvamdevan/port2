@@ -20,7 +20,7 @@ export const achievements = [
     year: "2025",
   },
    {
-    title: "Achieved AIR 1172 in ICPC 2024 Regionals Kapur region",
+    title: "Achieved AIR 1172 in ICPC 2024 Regionals Kanpur region",
     description:
       "Recieved ICPC 2024 Kanpur regionals certificate",
     year: "2024",
