@@ -2,7 +2,7 @@ import React from "react";
 
 const skills = [
   { name: "C++", level: 90 },
-  { name: "Generative AI", level: 42 },
+  { name: "Generative AI", level: 72 },
   { name: "React", level: 79 },
   { name: "DSA", level: 65 },
   { name: "TypeScript", level: 52 },
