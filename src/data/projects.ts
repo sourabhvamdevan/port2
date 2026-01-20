@@ -14,7 +14,7 @@ export const projects: Project[] = [
     id: "Water Quality Prediction",
     title: "Water Quality Prediction",
     description: "Image preprocessing + custom VGG-based classifier to detect early potato leaf disease.",
-    tags: ["NextJS", "TailWindCSS", "IBMCloud","FAST-API","TailwindCSS","Material-UI", "Shad-CN"],
+    tags: ["NextJS", "React19","TailWindCSS", "IBMCloud","FAST-API","TailwindCSS","Material-UI", "Shad-CN"],
     github: "https://github.com/sourabhvamdevan/my-project"
   },
   {
@@ -79,6 +79,22 @@ export const projects: Project[] = [
     description: "Created AI based flutter app to help students in their studies.",
     tags: ["Flutter", "GeminiAPI", "Hive",  "Material-UI-3"],
     github: "https://github.com/sourabhvamdevan/ai_study",
+  },
+
+   {
+    id: "Travel App",
+    title: "Travel App",
+    description: "Created travel app to help users remember places they visited.",
+    tags: ["Flutter", "Firebase", "Material-UI-3","Riverpod"],
+    github: "https://github.com/sourabhvamdevan/travel_app_assignment",
+  },
+
+   {
+    id: "Medical Reminder App",
+    title: "Medical Reminder App",
+    description:"The app allows users to schedule medicine reminders and receive notifications at the correct time.",
+    tags: ["Flutter", "Hive", "Material-UI-3","Flutter Local Notifications"],
+    github: "https://github.com/sourabhvamdevan/medical_app_assignment",
   },
 
 
