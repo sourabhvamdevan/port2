@@ -73,8 +73,13 @@ export const projects: Project[] = [
     github: "https://github.com/sourabhvamdevan/nextjs-blog-demo",
   },
 
-
-
+   {
+    id: "AI Study App",
+    title: "AI Study App",
+    description: "Created AI based flutter app to help students in their studies.",
+    tags: ["Flutter", "GeminiAPI", "Hive",  "Material-UI-3"],
+    github: "https://github.com/sourabhvamdevan/ai_study",
+  },
 
 
 ];
