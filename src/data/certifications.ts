@@ -35,7 +35,7 @@ export const certifications = [
     title: "Full Stack Development GeeksForGeeks",
     issuer: "GeeksForGeeks",
     year: "2025",
-    link: "/certificates/problem-solving.pdf",
+    link: "https://drive.google.com/file/d/1Sk53C9BzAdMGG-CxBakbLEggqvjQ7W1a/view?usp=drivesdk",
   },
   {
     title: "Databases with SQL Harvard University",
