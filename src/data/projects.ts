@@ -77,7 +77,7 @@ export const projects: Project[] = [
     id: "AI Study App",
     title: "AI Study App",
     description: "Created AI based flutter app to help students in their studies.",
-    tags: ["Flutter", "GeminiAPI", "Hive",  "Material-UI-3"],
+    tags: ["Flutter", "GeminiAPI", "Hive",  "Material-UI-3","(BERT, BART, GPT-4)"],
     github: "https://github.com/sourabhvamdevan/ai_study",
   },
 
@@ -95,6 +95,15 @@ export const projects: Project[] = [
     description:"The app allows users to schedule medicine reminders and receive notifications at the correct time.",
     tags: ["Flutter", "Hive", "Material-UI-3","Flutter Local Notifications"],
     github: "https://github.com/sourabhvamdevan/medical_app_assignment",
+  },
+
+
+    {
+    id: "AI Course Generator",
+    title: "AI Course Generator",
+    description:"This app generates personalized course based on user input using Gemini API.",
+    tags: ["Flutter", "Dart", "Material-UI-3","Flask", "Python Virtual Environment","Gemini API"],
+    github: "https://github.com/sourabhvamdevan/ai_course_generator",
   },
 
 
