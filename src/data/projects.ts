@@ -41,13 +41,7 @@ export const projects: Project[] = [
     tags: ["NextJS", "React19","Typescript", "Prisma", "Material-UI", "Clerk Authentication","ChartJS","Neon"],
     github: "https://github.com/sourabhvamdevan/nextjs-sleep_tracker",
   },
-   {
-    id: "Tensor Processing Unit Simulator",
-    title: "TPU AI Accelerator Simulator",
-    description: "Created AI Accelerator app using python to simulate tensor processing unit architecture.",
-    tags: ["Python", "TensorFlow", "Docker"],
-    github: "https://github.com/sourabhvamdevan/tensor-processing-unit",
-  },
+ 
    {
     id: "AI Based Doubt Solver",
     title: "AI doubt solver",
