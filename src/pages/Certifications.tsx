@@ -76,11 +76,7 @@ export default function Certifications() {
 
 
 
-  <img
-    src="https://cdn-icons-png.flaticon.com/512/2991/2991108.png"
-    alt="Certificate"
-    className="absolute top-4 right-4 h-9 w-9 opacity-80"
-  />
+ 
 
   <h3 className="text-xl font-semibold heading-accent">
     {cert.title}
