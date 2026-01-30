@@ -56,6 +56,29 @@ export default function Certifications() {
     [backface-visibility:hidden]
   "
 >
+      
+
+
+      {/* Issuer Image */}
+{cert.logo && (
+  <img
+    src={cert.logo}
+    alt={`${cert.issuer} logo`}
+    className="
+      absolute top-4 right-4
+      h-10 w-10
+      object-contain
+      opacity-80
+      dark:invert
+    "
+  />
+)}
+
+      
+
+
+
+
   <img
     src="https://cdn-icons-png.flaticon.com/512/2991/2991108.png"
     alt="Certificate"
