@@ -49,7 +49,7 @@ export const certifications = [
     issuer: "CS-50 Harvard University",
     year: "2024",
     link: "https://drive.google.com/file/d/18VVYZZSZR3KiFKl4B20PGkIiF7iUp4nR/view?usp=sharing",
-    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/960px-Harvard_University_logo.svg.png",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzjiklZcRF6sRzC5ISKaDrAMs4-H4AQjTUQ&s",
   },
     {
     title: "Front End Developer Skill Certificate-HackerRank",
@@ -115,7 +115,7 @@ export const certifications = [
     issuer: "Harvard University",
     year: "2024",
     link: "https://drive.google.com/file/d/1d1LpQubQBBgtWb1yL7sSvO2ZjnKMuX0P/view?usp=sharing",
-    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/960px-Harvard_University_logo.svg.png",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzjiklZcRF6sRzC5ISKaDrAMs4-H4AQjTUQ&s",
 
   },
 
