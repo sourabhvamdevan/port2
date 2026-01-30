@@ -35,11 +35,19 @@ export default function ProjectCard({ project }: { project: Project }) {
               <div className="flex flex-wrap gap-2 mt-3">
                 {project.tags.map((tag) => (
                   <span
-                    key={tag}
-                    className="text-xs px-2 py-1 rounded bg-white/6"
-                  >
-                    {tag}
-                  </span>
+  key={tag}
+  className="
+    text-xs px-2.5 py-1 rounded-full
+    bg-purple-500/10
+    text-purple-400
+    border border-purple-500/20
+    hover:bg-purple-500/20
+    transition
+  "
+>
+  {tag}
+</span>
+
                 ))}
               </div>
             )}
