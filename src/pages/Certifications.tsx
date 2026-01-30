@@ -46,28 +46,35 @@ export default function Certifications() {
                 `}
               >
                 {/* FRONT */}
-                <div
-                  className="
-                    absolute inset-0
-                    rounded-lg
-                    border border-gray-200 dark:border-white/10
-                    bg-white dark:bg-gray-900
-                    p-6 shadow-sm
-                    [backface-visibility:hidden]
-                  "
-                >
-                  <h3 className="text-xl font-semibold heading-accent">
-                    {cert.title}
-                  </h3>
+               <div
+  className="
+    absolute inset-0
+    rounded-lg
+    border border-gray-200 dark:border-white/10
+    bg-white dark:bg-gray-900
+    p-6 shadow-sm
+    [backface-visibility:hidden]
+  "
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/2991/2991108.png"
+    alt="Certificate"
+    className="absolute top-4 right-4 h-9 w-9 opacity-80"
+  />
 
-                  <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                    {cert.issuer} · {cert.year}
-                  </p>
+  <h3 className="text-xl font-semibold heading-accent">
+    {cert.title}
+  </h3>
 
-                  <p className="mt-6 text-xs text-gray-500 dark:text-gray-500">
-                    Click to view
-                  </p>
-                </div>
+  <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+    {cert.issuer} · {cert.year}
+  </p>
+
+  <p className="mt-6 text-xs text-gray-500 dark:text-gray-500">
+    Click to view
+  </p>
+</div>
+
 
                 {/* BACK */}
                 <div
