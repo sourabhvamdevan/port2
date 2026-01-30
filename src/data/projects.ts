@@ -8,7 +8,8 @@ export const projects: Project[] = [
     title: "Deep Fake Video Detection",
     description: "Used CNN (ResNet50) and RNN(LSTM) models for analyzing temporal anomalies in the deepfake videos.",
     tags: ["LSTM", "ResNet50", "Flask","ThreeJS","TensorFlow","OpenCV","Numpy"],
-    github: "https://github.com/sourabhvamdevan/deep-fake-video-detection-demo-"
+    github: "https://github.com/sourabhvamdevan/deep-fake-video-detection-demo-",
+    image : "https://www.shutterstock.com/image-photo/deepfake-concept-facial-tracking-detection-600nw-2504740373.jpg",
   },
   {
     id: "Water Quality Prediction",
