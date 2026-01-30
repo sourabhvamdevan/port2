@@ -41,7 +41,7 @@ export const certifications = [
     issuer: "GeeksForGeeks",
     year: "2025",
     link: "https://drive.google.com/file/d/1Sk53C9BzAdMGG-CxBakbLEggqvjQ7W1a/view?usp=drivesdk",
-    image:"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210419113249/gfg-new-logo-min.png",
+    image:"https://media.geeksforgeeks.org/wp-content/uploads/20230816191453/gfglogo.png",
 
   },
   {
@@ -89,7 +89,7 @@ export const certifications = [
     issuer: "GeeksForGeeks",
     year: "2025",
     link: "https://drive.google.com/file/d/1BdyJJxREgPc_SIWWOWQuXNjC7I0kobbH/view?usp=sharing",
-    image:"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210419113249/gfg-new-logo-min.png",
+    image:"https://media.geeksforgeeks.org/wp-content/uploads/20230816191453/gfglogo.png",
 
   },
    {
