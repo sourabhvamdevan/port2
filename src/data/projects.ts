@@ -16,7 +16,8 @@ export const projects: Project[] = [
     title: "Water Quality Prediction",
     description: "Image preprocessing + custom VGG-based classifier to detect early potato leaf disease.",
     tags: ["NextJS", "React19","TailWindCSS", "IBMCloud","FAST-API","TailwindCSS","Material-UI", "Shad-CN"],
-    github: "https://github.com/sourabhvamdevan/my-project"
+    github: "https://github.com/sourabhvamdevan/my-project",
+    image:"https://www.azoai.com/images/news/ImageForNews_1152_16953346361911572.jpg",
   },
   {
     id: "News App",
@@ -24,7 +25,7 @@ export const projects: Project[] = [
     description: "Flutter app using NewsAPI and Material-UI3.",
     tags: ["Flutter", "Dart", "Material-UI 3","NewsAPI"],
     github: "https://github.com/sourabhvamdevan/news_demo2",
-   
+    image:"https://www.shutterstock.com/image-photo/news-press-phone-read-newspaper-260nw-2699090197.jpg",
   },
    {
     id: "Image Overlay App",
@@ -32,7 +33,7 @@ export const projects: Project[] = [
     description: "Flutter app that overlays images using Stack widgets.",
     tags: ["Flutter", "Dart", "Material-UI 3"],
     github: "https://github.com/sourabhvamdevan/news_demo2",
-   
+    image:"https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/22/8f/25/228f2576-74ba-fb67-601a-e3eaad69582e/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/1200x630wa.png",
   },
 
     {
