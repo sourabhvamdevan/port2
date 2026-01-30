@@ -6,7 +6,7 @@ export const certifications = [
     issuer: "IBM",
     year: "2025",
     link: "https://drive.google.com/file/d/1EGieET9pqH-agKoBq8GeRqlGctQG-Ki6/view?usp=sharing",
-    logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXHdAxxWetb4iCz8sr3CggGcST1Io0jKXRQ&s",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXHdAxxWetb4iCz8sr3CggGcST1Io0jKXRQ&s",
   },
   {
     title: "Algorithms Specialization",

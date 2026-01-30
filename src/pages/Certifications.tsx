@@ -59,20 +59,17 @@ export default function Certifications() {
       
 
 
-      {/* Issuer Image */}
-{cert.logo && (
-  <img
-    src={cert.logo}
-    alt={`${cert.issuer} logo`}
-    className="
-      absolute top-4 right-4
-      h-10 w-10
-      object-contain
-      opacity-80
-      dark:invert
-    "
-  />
-)}
+  {/* Image Preview */}
+  {cert.image && (
+    <div className="h-24 w-full overflow-hidden">
+      <img
+        src={cert.image}
+        alt={cert.title}
+        loading="lazy"
+        className="h-full w-full object-cover"
+      />
+    </div>
+  )}
 
       
 
