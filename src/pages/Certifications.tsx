@@ -39,7 +39,7 @@ export default function Certifications() {
                   setFlipped(isFlipped ? null : index)
                 }
                 className={`
-                  relative h-48 w-full cursor-pointer
+                  relative h-56 w-full cursor-pointer
                   transition-transform duration-700
                   [transform-style:preserve-3d]
                   ${isFlipped ? "[transform:rotateY(180deg)]" : ""}
@@ -52,10 +52,12 @@ export default function Certifications() {
     rounded-lg
     border border-gray-200 dark:border-white/10
     bg-white dark:bg-gray-900
-    p-6 shadow-sm
+    shadow-sm
     [backface-visibility:hidden]
+    overflow-hidden
   "
 >
+
       
 
 
