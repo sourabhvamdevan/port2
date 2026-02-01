@@ -121,5 +121,16 @@ export const certifications = [
 
 
 
+     {
+    title: "Generative AI LLM RAG Skill Certificate",
+    issuer: "GeeksForGeeks",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1ln4NFHwczdz4m43Oem5G2eJuphBr_Vdx/view",
+    image:"https://media.geeksforgeeks.org/wp-content/uploads/20230816191453/gfglogo.png",
+
+  },
+
+
+
 
 ];
