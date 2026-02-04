@@ -111,4 +111,16 @@ export const projects: Project[] = [
   },
 
 
+     {
+    id: "Currency Converter App",
+    title: "Currency Converter App",
+   description:"This app converts currency from one to another using real-time exchange rates.",
+    tags: ["Flutter", "Dart", "Material-UI-3", "API Integration"],
+    github: "https://github.com/sourabhvamdevan/currency_demo",
+    image:"https://www.shutterstock.com/image-vector/3d-golden-coins-dollar-yen-600nw-2661610517.jpg",
+  },
+
+
+
+
 ];
