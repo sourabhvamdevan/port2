@@ -174,14 +174,31 @@ export default function Home() {
   }, [charIndex, deleting, roleIndex]);
 
   return (
-    <section className="relative z-0 max-w-5xl mx-auto px-6 py-20">
-      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden rounded-2xl">
-        <Lightning hue={260} xOffset={-0.3} speed={1} intensity={2.2} size={1.2} />
-      </div>
+    <section className="relative z-0 max-w-5xl mx-auto px-4 sm:px-6 py-16 sm:py-20 overflow-hidden rounded-2xl min-h-[720px] sm:min-h-0">
+      {/* <div className="absolute inset-0 z-0 pointer-events-none">
+        <Lightning hue={260} xOffset={0} speed={1} intensity={2.8} size={1.25} />
+
+      </div> */
+      <div className="absolute inset-0 z-0 pointer-events-none">
+  {/* Light theme */}
+  <div className="block h-full w-full dark:hidden opacity-55">
+    <Lightning hue={220} xOffset={0} speed={0.9} intensity={0.9} size={1.05} />
+  </div>
+
+  {/* Dark theme */}
+  <div className="hidden h-full w-full dark:block opacity-100">
+    <Lightning hue={260} xOffset={0} speed={1} intensity={2.6} size={1.25} />
+  </div>
+</div>
+
+      
+      
+      
+      }
 
       <div className="relative z-10 flex flex-col md:flex-row items-center gap-12">
         {/* Left content */}
-        <div className="flex-1">
+        <div className="flex-1 rounded-xl bg-white/60 p-3 sm:p-0 sm:bg-transparent">
           {/* TYPEWRITER HEADING */}
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-100">
             Hi, I'm Sourabh Vamdevan.
