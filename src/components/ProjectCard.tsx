@@ -52,6 +52,20 @@ export default function ProjectCard({ project }: { project: Project }) {
               </div>
             )}
           </div>
+    <div className="flex items-center gap-2 shrink-0">
+            {project.live && (
+    <a
+      href={project.live}
+      target="_blank"
+      rel="noreferrer"
+      className="text-xs px-3 py-2 rounded bg-purple-600 hover:bg-purple-700 text-white"
+    >
+      Live Demo
+    </a>
+  )}
+
+
+           
 
           {project.github && (
             <a
@@ -63,6 +77,12 @@ export default function ProjectCard({ project }: { project: Project }) {
               View GitHub
             </a>
           )}
+
+
+
+</div>
+
+
         </div>
       </div>
     </article>

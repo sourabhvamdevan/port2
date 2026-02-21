@@ -9,8 +9,14 @@ export const projects: Project[] = [
     description: "Used CNN (ResNet50) and RNN(LSTM) models for analyzing temporal anomalies in the deepfake videos.",
     tags: ["LSTM", "ResNet50", "Flask","ThreeJS","TensorFlow","OpenCV","Numpy"],
     github: "https://github.com/sourabhvamdevan/deep-fake-video-detection-demo-",
+    live:"",
     image : "https://www.shutterstock.com/image-photo/deepfake-concept-facial-tracking-detection-600nw-2504740373.jpg",
   },
+
+
+
+
+
   {
     id: "Water Quality Prediction",
     title: "Water Quality Prediction",
@@ -25,6 +31,7 @@ export const projects: Project[] = [
     description: "Flutter app using NewsAPI and Material-UI3.",
     tags: ["Flutter", "Dart", "Material-UI 3","NewsAPI"],
     github: "https://github.com/sourabhvamdevan/news_demo2",
+    live:"https://drive.google.com/file/d/1Jngg17duyyFy7Zkv51SYMRG1Z-cpHerW/view?usp=drive_link",
     image:"https://www.shutterstock.com/image-photo/news-press-phone-read-newspaper-260nw-2699090197.jpg",
   },
    {
@@ -118,6 +125,18 @@ export const projects: Project[] = [
     tags: ["Flutter", "Dart", "Material-UI-3", "API Integration"],
     github: "https://github.com/sourabhvamdevan/currency_demo",
     image:"https://www.shutterstock.com/image-vector/3d-golden-coins-dollar-yen-600nw-2661610517.jpg",
+  },
+
+
+    {
+    id: "AI Intervew App",
+    title: "AI Interview App",
+   description:"This app takes interviews using Gemini API and it has different categories of interview.",
+    tags: ["Flutter", "Dart", "Material-UI-3", "API Integration", "Authentication", "GetX"],
+    github: "https://github.com/sourabhvamdevan/ai-interview",
+    live:"https://appetize.io/embed/b_235eja3nbb6os7mw2hysaxwwqq",
+    image:"https://www.shutterstock.com/image-vector/hiring-set-character-intelligence-robot-600nw-2594304769.jpg",
+    
   },
 
 
