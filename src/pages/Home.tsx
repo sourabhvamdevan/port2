@@ -180,16 +180,18 @@ export default function Home() {
 
       </div> */
       <div className="absolute inset-0 z-0 pointer-events-none">
-  {/* Light theme */}
-  <div className="block h-full w-full dark:hidden opacity-55">
-    <Lightning hue={220} xOffset={0} speed={0.9} intensity={0.9} size={1.05} />
-  </div>
+  {/* Light theme: subtle */}
+ <div className="hidden h-full w-full dark:block">
+  <Lightning hue={260} xOffset={0} speed={1} intensity={2.4} size={1.2} />
+</div>
 
-  {/* Dark theme */}
+
+  {/* Dark theme: strong */}
   <div className="hidden h-full w-full dark:block opacity-100">
-    <Lightning hue={260} xOffset={0} speed={1} intensity={2.6} size={1.25} />
+    <Lightning hue={260} xOffset={0} speed={1} intensity={2.4} size={1.2} />
   </div>
 </div>
+
 
       
       
