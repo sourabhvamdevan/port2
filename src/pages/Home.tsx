@@ -179,24 +179,36 @@ export default function Home() {
         <Lightning hue={260} xOffset={0} speed={1} intensity={2.8} size={1.25} />
 
       </div> */
-      <div className="absolute inset-0 z-0 pointer-events-none">
-  {/* Light theme: subtle */}
- <div className="hidden h-full w-full dark:block">
-  <Lightning hue={260} xOffset={0} speed={1} intensity={2.4} size={1.2} />
+    <div className="absolute inset-0 z-0 pointer-events-none">
+  {/* Light theme */}
+ 
+{/* Light theme */}
+<div className="absolute inset-0 z-0 pointer-events-none hidden dark:block">
+  <Lightning
+    hue={187}
+    xOffset={0}
+    speed={1}
+    intensity={2.4}
+    size={1.2}
+  />
 </div>
 
 
-  {/* Dark theme: strong */}
-  <div className="hidden h-full w-full dark:block opacity-100">
-    <Lightning hue={260} xOffset={0} speed={1} intensity={2.4} size={1.2} />
-  </div>
+
+
+  {/* Dark theme */}
+ <div className="absolute inset-0 z-0 pointer-events-none hidden dark:block">
+  <Lightning hue={270} xOffset={0} speed={1} intensity={2.4} size={1.2} />
+  <div className="absolute inset-0 bg-black opacity-[0.01]" />
 </div>
 
+</div>
 
-      
-      
-      
       }
+      
+      
+      
+      
 
       <div className="relative z-10 flex flex-col md:flex-row items-center gap-12">
         {/* Left content */}
