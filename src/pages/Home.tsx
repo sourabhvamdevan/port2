@@ -198,7 +198,7 @@ export default function Home() {
 
       <div className="relative z-10 flex flex-col md:flex-row items-center gap-12">
         {/* Left content */}
-        <div className="flex-1 rounded-xl bg-white/60 p-3 sm:p-0 sm:bg-transparent">
+        <div className="flex-1">
           {/* TYPEWRITER HEADING */}
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-100">
             Hi, I'm Sourabh Vamdevan.
