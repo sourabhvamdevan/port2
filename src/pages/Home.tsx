@@ -286,8 +286,10 @@ export default function Home() {
     "
   >
     {/* moving border segments */}
-    <span className="quickstats-line quickstats-line-top" />
-    <span className="quickstats-line quickstats-line-bottom" />
+   {/* moving border segments */}
+<span className="quickstats-line quickstats-line-top opacity-20 dark:opacity-100" />
+<span className="quickstats-line quickstats-line-bottom opacity-20 dark:opacity-100" />
+
 
     {/* <h4 className="text-sm tracking-[0.2em] uppercase text-cyan-700 dark:text-cyan-300">
       Quick Stats
