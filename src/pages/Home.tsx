@@ -277,28 +277,61 @@ export default function Home() {
 
 
 <div className="relative w-full max-w-sm">
-  <div className="quickstats-neon-glow" />
-
-  <div className="quickstats-neon-card">
+  <div
+    className="
+      quickstats-neon-card
+      bg-white text-slate-900
+      dark:bg-[#02080d] dark:text-cyan-100
+      border border-cyan-300/40 dark:border-cyan-300/45
+    "
+  >
     {/* moving border segments */}
     <span className="quickstats-line quickstats-line-top" />
     <span className="quickstats-line quickstats-line-bottom" />
 
-    {/* fixed corner accents */}
- 
-
-    <h4 className="text-sm text-cyan-300 tracking-[0.2em] uppercase">Quick Stats</h4>
+    {/* <h4 className="text-sm tracking-[0.2em] uppercase text-cyan-700 dark:text-cyan-300">
+      Quick Stats
+    </h4>
 
     <div className="mt-4 grid grid-cols-2 gap-4">
-      <div className="p-3 rounded-md bg-cyan-500/5 text-center border border-cyan-300/20">
-        <div className="text-2xl font-semibold text-cyan-200">3+</div>
-        <div className="text-xs mt-1 text-cyan-100/80">Production projects</div>
+      <div className="p-3 rounded-md text-center border border-cyan-300/30 bg-cyan-500/10 dark:bg-cyan-500/5">
+        <div className="text-2xl font-semibold text-cyan-800 dark:text-cyan-200">3+</div>
+        <div className="text-xs mt-1 text-cyan-900/80 dark:text-cyan-100/80">
+          Production projects
+        </div>
       </div>
-      <div className="p-3 rounded-md bg-cyan-500/5 text-center border border-cyan-300/20">
-        <div className="text-2xl font-semibold text-cyan-200">5+</div>
-        <div className="text-xs mt-1 text-cyan-100/80">Research & prototypes</div>
+
+      <div className="p-3 rounded-md text-center border border-cyan-300/30 bg-cyan-500/10 dark:bg-cyan-500/5">
+        <div className="text-2xl font-semibold text-cyan-800 dark:text-cyan-200">5+</div>
+        <div className="text-xs mt-1 text-cyan-900/80 dark:text-cyan-100/80">
+          Research & prototypes
+        </div>
       </div>
+    </div> */}
+
+<h4 className="text-sm tracking-[0.2em] uppercase text-black dark:text-cyan-300">
+  Quick Stats
+</h4>
+
+<div className="mt-4 grid grid-cols-2 gap-4">
+  <div className="p-3 rounded-md text-center border border-cyan-300/30 bg-cyan-500/10 dark:bg-cyan-500/5">
+    <div className="text-2xl font-semibold text-black dark:text-cyan-200">3+</div>
+    <div className="text-xs mt-1 text-black/80 dark:text-cyan-100/80">
+      Production projects
     </div>
+  </div>
+
+  <div className="p-3 rounded-md text-center border border-cyan-300/30 bg-cyan-500/10 dark:bg-cyan-500/5">
+    <div className="text-2xl font-semibold text-black dark:text-cyan-200">5+</div>
+    <div className="text-xs mt-1 text-black/80 dark:text-cyan-100/80">
+      Research & prototypes
+    </div>
+  </div>
+</div>
+
+
+
+
   </div>
 </div>
 

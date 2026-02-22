@@ -62,16 +62,17 @@ body {
   overflow: hidden;
   border-radius: 1rem;
   padding: 1.5rem;
-  background: #02080d;
-  border: 1px solid rgba(34, 211, 238, 0.45);
-  box-shadow: 0 0 38px rgba(34, 211, 238, 0.35), inset 0 0 20px rgba(34, 211, 238, 0.08);
+  background: #ffffff; /* light theme */
+  color: #0f172a;
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.2), inset 0 0 14px rgba(34, 211, 238, 0.05);
 }
 
-.quickstats-line {
-  position: absolute;
-  height: 3px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, rgba(14, 116, 244, 0.95), rgba(34, 211, 238, 1));
+.dark .quickstats-neon-card {
+  background: #02080d; /* dark theme */
+  color: #cffafe;
+  border-color: rgba(34, 211, 238, 0.45);
+  box-shadow: 0 0 38px rgba(34, 211, 238, 0.35), inset 0 0 20px rgba(34, 211, 238, 0.08);
 }
 
 .quickstats-line-top {
