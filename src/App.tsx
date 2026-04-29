@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -46,7 +45,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-black transition-colors">
       <Navbar dark={dark} setDark={setDark} />
-
+     
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
